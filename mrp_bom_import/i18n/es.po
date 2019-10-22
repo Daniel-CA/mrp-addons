@@ -1,0 +1,257 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* prado_custom
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-05-10 08:18+0000\n"
+"PO-Revision-Date: 2019-05-10 10:46+0100\n"
+"Last-Translator: Daniel <danielcampos@avanzosc.es>\n"
+"Language: Spanish\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Poedit 1.5.4\n"
+
+#. module: prado_custom
+#: model_terms:ir.ui.view,arch_db:prado_custom.view_mrp_bom_import_form
+msgid "<span class=\"o_stat_text\">BoMs</span>"
+msgstr "<span class=\"o_stat_text\">LdMs</span>"
+
+#. module: prado_custom
+#: model_terms:ir.ui.view,arch_db:prado_custom.view_mrp_bom_import_form
+msgid "<span class=\"o_stat_text\">Products</span>"
+msgstr "<span class=\"o_stat_text\">Productos</span>"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__bom_import_id
+#: model:ir.ui.menu,name:prado_custom.menu_bom_import
+#: model_terms:ir.ui.view,arch_db:prado_custom.view_mrp_bom_import_form
+#: model_terms:ir.ui.view,arch_db:prado_custom.view_mrp_bom_import_tree
+#: model_terms:ir.ui.view,arch_db:prado_custom.view_mrp_bom_line_tree
+msgid "BoM Import"
+msgstr "Importar LdM"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import__bom_import_lines
+msgid "BoM Import Lines"
+msgstr "Importar lineas LdM"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__bom_code
+msgid "BoM code"
+msgstr "Codigo LdM"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__category_id
+msgid "Category"
+msgstr "Categoría"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__categ_name
+msgid "Category name"
+msgstr "Nombre categoría"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import__create_uid
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import__create_date
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import__display_name
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__map
+msgid "Erection Drawing"
+msgstr "Plano Montaje"
+
+#. module: prado_custom
+#: selection:mrp.bom.line.import,state:0
+msgid "Error"
+msgstr "Error"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import__data
+msgid "File"
+msgstr "Archivo"
+
+#. module: prado_custom
+#: model:ir.ui.menu,name:prado_custom.mrp_bom_import
+msgid "File BoM Import"
+msgstr "Importar archivo LdM"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import__file_date
+msgid "File Import Date"
+msgstr "Fecha importación archivo"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import__filename
+msgid "Filename"
+msgstr "Nombre archivo"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import__id
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__id
+msgid "ID"
+msgstr "ID"
+
+#. module: prado_custom
+#: model_terms:ir.ui.view,arch_db:prado_custom.view_mrp_bom_import_form
+msgid "Import"
+msgstr "Importar"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import__name
+msgid "Import name"
+msgstr "Nombre importación"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__state
+msgid "Import state"
+msgstr "Estado"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import____last_update
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import__write_uid
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import__write_date
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__write_date
+msgid "Last Updated on"
+msgstr "Última actualización en"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__log_info
+msgid "Log Info"
+msgstr "Info log."
+
+#. module: prado_custom
+#: model:ir.actions.act_window,name:prado_custom.mrp_bom_import_act
+msgid "MRP BoM Import"
+msgstr "MRP Importación LdM"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__bom_id
+msgid "BoM"
+msgstr "LdM"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_product_product__map_number
+msgid "Map Number"
+msgstr "Plano montaje"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__origin
+msgid "Origin"
+msgstr "Origen"
+
+#. module: prado_custom
+#: model_terms:ir.ui.view,arch_db:prado_custom.view_mrp_bom_import_form
+msgid "Process"
+msgstr "Procesar"
+
+#. module: prado_custom
+#: selection:mrp.bom.line.import,state:0
+msgid "Processed"
+msgstr "Procesado"
+
+#. module: prado_custom
+#: model:ir.model,name:prado_custom.model_product_product
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: prado_custom
+#: model:ir.model,name:prado_custom.model_product_category
+msgid "Product Category"
+msgstr "Categoría producto"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__product_ref
+msgid "Product code"
+msgstr "Código producto"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__product_name
+msgid "Product name"
+msgstr "Nombre producto"
+
+#. module: prado_custom
+#: code:addons/prado_custom/models/mrp_bom_import.py:54
+#: code:addons/prado_custom/models/mrp_bom_import.py:71
+#, python-format
+msgid "Products"
+msgstr "Productos"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__quantity
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import__bom_count
+msgid "Total BoMs"
+msgstr "Total LdMs"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_import__products_count
+msgid "Total Products"
+msgstr "Total productos"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_product_category__supplier_id
+msgid "Supplier"
+msgstr "Proveedor"
+
+#. module: prado_custom
+#: selection:mrp.bom.line.import,state:0
+msgid "To validate"
+msgstr "Para validar"
+
+#. module: prado_custom
+#: model_terms:ir.ui.view,arch_db:prado_custom.view_mrp_bom_import_form
+msgid "Validate"
+msgstr "Validar"
+
+#. module: prado_custom
+#: selection:mrp.bom.line.import,state:0
+msgid "Validated"
+msgstr "Validado"
+
+#. module: prado_custom
+#: model:ir.model.fields,field_description:prado_custom.field_mrp_bom_line_import__weight
+msgid "Weight"
+msgstr "Peso"
+
+#. module: prado_custom
+#: model:ir.model,name:prado_custom.model_mrp_bom_import
+msgid "mrp.bom.import"
+msgstr ""
+
+#. module: prado_custom
+#: model:ir.model,name:prado_custom.model_mrp_bom_line_import
+msgid "mrp.bom.line.import"
+msgstr ""
